@@ -3,6 +3,8 @@ all:nali.c libqqwry/qqwry.c
 	gcc -o bin/qqwrynali nali.c libqqwry/qqwry.c
 	cp share/nali.sh bin/nali
 install:bin share
+	mkdir -p $(DESTDIR)$(bindir)
+	mkdir -p $(DESTDIR)$(datadir)
 	install bin/qqwrynali $(DESTDIR)$(bindir) 
 	install bin/nali $(DESTDIR)$(bindir) 
 	install bin/nali-traceroute $(DESTDIR)$(bindir) 
