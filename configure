@@ -13,13 +13,13 @@ fi
 if test ! -d ./libqqwry
 then
     echo there is no ./libqqwry
-    echo see https://github.com/meteoral/Nali/tree/master/libqqwry
+    echo see https://github.com/rampageX/nali-org/tree/master/libqqwry
     exit 1
 fi
 
 if test ! -f ./share/QQWry.Dat
 then
-    echo please download QQWry.Dat from https://github.com/meteoral/Nali/raw/master/share/QQWry.Dat 
+    echo please download QQWry.Dat from https://github.com/rampageX/nali-org/raw/master/share/QQWry.Dat 
     exit 1
 fi
 
